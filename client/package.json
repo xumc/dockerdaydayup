@@ -1,0 +1,15 @@
+{
+  "name": "data_watch_dog",
+  "version": "1.0.0",
+  "description": "A MYSQL binlog watcher",
+  "main": "data_watch_dog.js",
+  "author": "xumc",
+  "license": "MIT",
+  "scripts": {
+    "start": "node data_watch_dog.js"
+  },
+  "dependencies": {
+    "@rodrigogs/zongji": "rodrigogs/zongji",
+    "zongji": "^0.4.7"
+  }
+}

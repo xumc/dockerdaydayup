@@ -43,12 +43,14 @@ func handleVideos(w http.ResponseWriter, r *http.Request){
 	vs, vids, err := getVideosFromDB()
 	if err != nil {
 		log.Printf("getVideosFromDB error %v", err)
+		handleError(w, err)
 		return
 	}
 
 	reply, err := getViewCountsFromReportService(vids)
 	if err != nil {
 		log.Printf("getViewCountsFromReportServic error e%v", err)
+		handleError(w, err)
 		return
 	}
 
@@ -75,7 +77,7 @@ func main() {
 
 	mux.HandleFunc("/videos", handleVideos)
 
-	go http.ListenAndServe(":8080", mux)
+	go http.ListenAndServe(":80", mux)
 
 	exit := make(chan os.Signal, 1)
 	signal.Notify(exit, os.Interrupt, syscall.SIGTERM, syscall.SIGQUIT)

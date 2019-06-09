@@ -15,8 +15,8 @@ spec:
       labels:
         app.kubernetes.io/name: {{ include "chart.name" . }}
         app.kubernetes.io/instance: {{ .Release.Name }}
-#      annotations:
-#        sidecar.istio.io/inject: "false"
+      annotations:
+        sidecar.istio.io/inject: "false"
     spec:
     {{- with .Values.imagePullSecrets }}
       imagePullSecrets:
@@ -28,7 +28,7 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http
-              containerPort: 8080
+              containerPort: 80
               protocol: TCP
           livenessProbe:
             httpGet:
