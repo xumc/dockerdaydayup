@@ -1,0 +1,50 @@
+syntax = "proto3";
+package proto;
+
+import "google/api/annotations.proto";
+import "google/protobuf/empty.proto";
+
+service DdduService {
+    rpc GetServices(google.protobuf.Empty) returns (ServicesReply) {
+        option (google.api.http) = {
+          get: "/services"
+        };
+    }
+
+    rpc DigOut(DigOutRequest) returns (google.protobuf.Empty) {
+        option (google.api.http) = {
+          post: "/digout"
+          body: "*"
+        };
+    }
+
+    rpc DeDigOut(DigOutRequest) returns (google.protobuf.Empty) {
+        option (google.api.http) = {
+          post: "/dedigout"
+          body: "*"
+        };
+    }
+}
+
+
+message DigOutRequest {
+    string service_name = 1;
+}
+
+enum DigOutStatus {
+    Open = 0;
+    Opening = 1;
+    Closing = 2;
+    Closed = 3;
+    Unknown = 4;
+}
+
+message Service {
+    string id = 1;
+    string name = 2;
+    DigOutStatus digout_status = 3;
+}
+
+message ServicesReply {
+    repeated Service items = 1;
+}

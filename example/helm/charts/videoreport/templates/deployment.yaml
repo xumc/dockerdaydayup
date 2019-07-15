@@ -16,7 +16,7 @@ spec:
         app.kubernetes.io/name: {{ include "chart.name" . }}
         app.kubernetes.io/instance: {{ .Release.Name }}
       annotations:
-        sidecar.istio.io/inject: "false"
+        sidecar.istio.io/inject: "true"
     spec:
     {{- with .Values.imagePullSecrets }}
       imagePullSecrets:
@@ -27,7 +27,7 @@ spec:
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
-            - name: http
+            - name: grpc-port
               containerPort: 80
               protocol: TCP
           resources:

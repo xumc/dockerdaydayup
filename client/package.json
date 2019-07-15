@@ -1,15 +1,37 @@
 {
-  "name": "data_watch_dog",
-  "version": "1.0.0",
-  "description": "A MYSQL binlog watcher",
-  "main": "data_watch_dog.js",
-  "author": "xumc",
-  "license": "MIT",
-  "scripts": {
-    "start": "node data_watch_dog.js"
-  },
+  "name": "dddu",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "@rodrigogs/zongji": "rodrigogs/zongji",
-    "zongji": "^0.4.7"
+    "babel-plugin-import": "^1.12.0",
+    "customize-cra": "^0.2.14",
+    "javascript-terminal": "^1.0.3",
+    "lodash": "4.17.13",
+    "react": "^16.8.6",
+    "react-app-rewired": "^2.1.3",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "react-terminal-component": "^1.4.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

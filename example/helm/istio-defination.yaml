@@ -1,0 +1,66 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: hah-gateway
+spec:
+  selector:
+    istio: ingressgateway # use Istio default gateway implementation
+  servers:
+  - port:
+      number: 80
+      name: http
+      protocol: HTTP
+    hosts:
+    - "api.hah.com"
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: hah-vs
+spec:
+  hosts:
+  - "api.hah.com"
+  gateways:
+  - hah-gateway
+  http:
+  - match:
+    - uri:
+        prefix: /videos
+    route:
+    - destination:
+        host: video-api
+        port:
+          number:  80
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: mysql-gateway
+spec:
+  selector:
+    istio: ingressgateway # use Istio default gateway implementation
+  servers:
+  - port:
+      number: 3306
+      name: tcp
+      protocol: TCP
+    hosts:
+    - "mysql.hah.com"
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: mysql-vs
+spec:
+  hosts:
+  - "mysql.hah.com"
+  gateways:
+  - mysql-gateway
+  tcp:
+  - match:
+    - port: 3306
+    route:
+    - destination:
+        host: video-api-mysql
+        port:
+          number:  3306

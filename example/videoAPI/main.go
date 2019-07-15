@@ -77,7 +77,7 @@ func main() {
 
 	mux.HandleFunc("/videos", handleVideos)
 
-	go http.ListenAndServe(":80", mux)
+	go http.ListenAndServe(":8888", mux)
 
 	exit := make(chan os.Signal, 1)
 	signal.Notify(exit, os.Interrupt, syscall.SIGTERM, syscall.SIGQUIT)

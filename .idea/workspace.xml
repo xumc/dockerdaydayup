@@ -2,12 +2,350 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd2f67e7-678c-42ff-8aa3-3542231db4df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/data_watch_dog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/proto/.idea/proto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/tele_manager.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dockerdaydayup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dockerdaydayup.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/helm/charts/mysql/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/helm/charts/mysql/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/data_watch_dog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/docker-test.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/lib/binlog_event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/lib/capture.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/lib/code_map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/lib/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/lib/datetime_decode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/lib/json_decode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/lib/packet/binlog_header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/lib/packet/combinlog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/lib/packet/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/lib/reader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/lib/rows_event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/lib/sequence/binlog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/LICENCE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/bignumber.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/bignumber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/bignumber.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/bignumber.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/bignumber.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/doc/API.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/Changes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/License" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/Connection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/ConnectionConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/Pool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/PoolCluster.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/PoolConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/PoolConnection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/PoolNamespace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/PoolSelector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/Auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/BufferList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/PacketHeader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/PacketWriter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/Parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/Protocol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/ResultSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/SqlString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/Timer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/constants/charsets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/constants/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/constants/errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/constants/field_flags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/constants/server_status.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/constants/ssl_profiles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/constants/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/AuthSwitchRequestPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/AuthSwitchResponsePacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/ClientAuthenticationPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/ComChangeUserPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/ComPingPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/ComQueryPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/ComQuitPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/ComStatisticsPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/EmptyPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/EofPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/ErrorPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/Field.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/FieldPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/LocalDataFilePacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/OkPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/OldPasswordPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/ResultSetHeaderPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/RowDataPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/SSLRequestPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/StatisticsPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/UseOldPasswordPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/sequences/ChangeUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/sequences/Handshake.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/sequences/Ping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/sequences/Query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/sequences/Quit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/sequences/Sequence.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/sequences/Statistics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/sequences/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/mysql/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/process-nextick-args/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/process-nextick-args/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/process-nextick-args/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/process-nextick-args/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/GOVERNANCE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/duplex-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/duplex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/lib/_stream_duplex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/lib/_stream_passthrough.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/lib/_stream_readable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/lib/_stream_transform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/lib/_stream_writable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/lib/internal/streams/BufferList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/lib/internal/streams/destroy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/lib/internal/streams/stream-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/lib/internal/streams/stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/passthrough.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/readable-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/readable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/transform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/writable-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/writable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/safe-buffer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/safe-buffer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/safe-buffer/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/safe-buffer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/safe-buffer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/sqlstring/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/sqlstring/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/sqlstring/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/sqlstring/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/sqlstring/lib/SqlString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/sqlstring/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/string_decoder/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/string_decoder/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/string_decoder/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/string_decoder/lib/string_decoder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/node_modules/string_decoder/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/@rodrigogs/zongji/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/bignumber.js/LICENCE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/bignumber.js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/bignumber.js/bignumber.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/bignumber.js/bignumber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/bignumber.js/bignumber.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/bignumber.js/bignumber.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/bignumber.js/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/bignumber.js/doc/API.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/bignumber.js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/core-util-is/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/core-util-is/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/core-util-is/float.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/core-util-is/lib/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/core-util-is/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/core-util-is/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/Changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/encodings/dbcs-codec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/encodings/dbcs-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/encodings/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/encodings/internal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/encodings/sbcs-codec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/encodings/sbcs-data-generated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/encodings/sbcs-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/encodings/tables/big5-added.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/encodings/tables/cp936.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/encodings/tables/cp949.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/encodings/tables/cp950.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/encodings/tables/eucjp.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/encodings/tables/gbk-added.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/encodings/tables/shiftjis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/encodings/utf16.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/encodings/utf7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/lib/bom-handling.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/lib/extend-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/lib/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/lib/streams.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/iconv-lite/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/inherits/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/inherits/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/inherits/inherits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/inherits/inherits_browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/isarray/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/isarray/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/isarray/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/isarray/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/isarray/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/isarray/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/isarray/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/isarray/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/Changes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/License" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/Connection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/ConnectionConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/Pool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/PoolCluster.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/PoolConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/PoolConnection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/PoolNamespace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/PoolSelector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/Auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/BufferList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/PacketHeader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/PacketWriter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/Parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/Protocol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/ResultSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/SqlString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/constants/charsets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/constants/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/constants/errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/constants/field_flags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/constants/server_status.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/constants/ssl_profiles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/constants/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/AuthSwitchRequestPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/AuthSwitchResponsePacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/ClientAuthenticationPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/ComChangeUserPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/ComPingPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/ComQueryPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/ComQuitPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/ComStatisticsPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/EmptyPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/EofPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/ErrorPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/Field.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/FieldPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/LocalDataFilePacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/OkPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/OldPasswordPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/ResultSetHeaderPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/RowDataPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/SSLRequestPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/StatisticsPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/UseOldPasswordPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/packets/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/sequences/ChangeUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/sequences/Handshake.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/sequences/Ping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/sequences/Query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/sequences/Quit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/sequences/Sequence.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/sequences/Statistics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/lib/protocol/sequences/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/mysql/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/process-nextick-args/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/process-nextick-args/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/process-nextick-args/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/process-nextick-args/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/process-nextick-args/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/process-nextick-args/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/GOVERNANCE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/duplex-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/duplex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/lib/_stream_duplex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/lib/_stream_passthrough.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/lib/_stream_readable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/lib/_stream_transform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/lib/_stream_writable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/lib/internal/streams/BufferList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/lib/internal/streams/destroy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/lib/internal/streams/stream-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/lib/internal/streams/stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/passthrough.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/readable-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/readable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/transform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/writable-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/readable-stream/writable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/safe-buffer/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/safe-buffer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/safe-buffer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/safe-buffer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/safe-buffer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/safe-buffer/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/safer-buffer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/safer-buffer/Porting-Buffer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/safer-buffer/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/safer-buffer/dangerous.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/safer-buffer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/safer-buffer/safer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/safer-buffer/tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/sqlstring/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/sqlstring/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/sqlstring/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/sqlstring/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/sqlstring/lib/SqlString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/sqlstring/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/string_decoder/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/string_decoder/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/string_decoder/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/string_decoder/lib/string_decoder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/string_decoder/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/util-deprecate/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/util-deprecate/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/util-deprecate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/util-deprecate/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/util-deprecate/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/util-deprecate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/zongji/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/zongji/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/zongji/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/zongji/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/zongji/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/zongji/docker-test.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/zongji/example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/zongji/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/zongji/lib/binlog_event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/zongji/lib/capture.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/zongji/lib/code_map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/zongji/lib/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/zongji/lib/datetime_decode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/zongji/lib/json_decode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/zongji/lib/packet/binlog_header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/zongji/lib/packet/combinlog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/zongji/lib/packet/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/zongji/lib/reader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/zongji/lib/rows_event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/zongji/lib/sequence/binlog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/zongji/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/example/helm/charts/videoreport/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/helm/charts/videoreport/templates/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/helm/charts/videoreport/templates/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/helm/charts/videoreport/templates/service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/helm/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/helm/templates/deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/videoAPI/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/example/videoAPI/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/helm/templates/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/helm/templates/service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/videoAPI/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/videoAPI/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/videoAPI/videoapi" beforeDir="false" afterPath="$PROJECT_DIR$/example/videoAPI/videoapi" afterDir="false" />
     </list>
@@ -19,83 +357,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/helm/charts/mysql/values.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="130" column="85" selection-start-line="130" selection-start-column="85" selection-end-line="130" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/data_watch_dog.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="89" column="17" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/helm/charts/mysql/templates/deployment.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-110">
-              <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/helm/templates/deployment.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/helm/values.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/example/helm/charts/edcdv/templates/deployment.yaml">
+        <entry file="file://$PROJECT_DIR$/server/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+            <state relative-caret-position="-6636">
+              <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+              <folding>
+                <element signature="e#14#392#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/helm/charts/edcdv/values.yaml">
+        <entry file="file://$PROJECT_DIR$/../../etcd-io/etcd/pkg/fileutil/fileutil.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            <state relative-caret-position="238">
+              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/videoapi/main.go">
+        <entry file="file:///usr/local/go/src/log/log.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="121" column="86" selection-start-line="121" selection-start-column="86" selection-end-line="121" selection-end-column="86" />
+            <state relative-caret-position="238">
+              <caret line="311" column="5" selection-start-line="311" selection-start-column="5" selection-end-line="311" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/net/url/url.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="367" column="4" selection-start-line="367" selection-start-column="4" selection-end-line="367" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../grpc-ecosystem/grpc-gateway/runtime/mux.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="146" column="5" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../rs/cors/cors.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="201" column="15" selection-start-line="201" selection-start-column="15" selection-end-line="201" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/net/http/fs.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/net/http/server.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/helm/templates/service.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../golang/protobuf/jsonpb/jsonpb.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -123,6 +473,14 @@
       <find>initializationFiles</find>
       <find>cnf</find>
       <find>process</find>
+      <find>eslint-plugin-modula</find>
+      <find>LIBRARY_COMPILE_TO</find>
+      <find>run-sequence</find>
+      <find>runSequence</find>
+      <find>tManager add:</find>
+      <find>tManager add</find>
+      <find>emit</find>
+      <find>getDigoutStatus</find>
     </findStrings>
     <replaceStrings>
       <replace>Print</replace>
@@ -155,22 +513,31 @@
         <option value="$PROJECT_DIR$/example/helm/charts/videoreport/values.yaml" />
         <option value="$PROJECT_DIR$/example/helm/charts/videoreport/Chart.yaml" />
         <option value="$PROJECT_DIR$/example/videoreport/main.go" />
-        <option value="$PROJECT_DIR$/example/videoapi/main.go" />
-        <option value="$PROJECT_DIR$/example/helm/templates/deployment.yaml" />
-        <option value="$PROJECT_DIR$/example/helm/charts/videoreport/templates/deployment.yaml" />
         <option value="$PROJECT_DIR$/client/package.json" />
         <option value="$PROJECT_DIR$/client/data_watch_dog.js" />
         <option value="$PROJECT_DIR$/example/videoapi/Dockerfile" />
         <option value="$PROJECT_DIR$/example/helm/charts/edcdv/values.yaml" />
-        <option value="$PROJECT_DIR$/example/helm/charts/mysql/values.yaml" />
         <option value="$PROJECT_DIR$/example/helm/charts/edcdv/templates/deployment.yaml" />
+        <option value="$PROJECT_DIR$/example/helm/charts/mysql/values.yaml" />
+        <option value="$PROJECT_DIR$/example/helm/charts/videoreport/templates/deployment.yaml" />
+        <option value="$PROJECT_DIR$/example/helm/charts/videoreport/templates/service.yaml" />
+        <option value="$PROJECT_DIR$/example/helm/templates/deployment.yaml" />
+        <option value="$PROJECT_DIR$/example/helm/templates/service.yaml" />
+        <option value="$PROJECT_DIR$/server/gulpfile.babel.js" />
+        <option value="$PROJECT_DIR$/server/package.json" />
+        <option value="$PROJECT_DIR$/server/proto.go" />
+        <option value="$PROJECT_DIR$/example/videoapi/main.go" />
+        <option value="$PROJECT_DIR$/server/telepresence_manager.go" />
+        <option value="$PROJECT_DIR$/server/tele_manager.go" />
+        <option value="$PROJECT_DIR$/server/proto/proto.proto" />
+        <option value="$PROJECT_DIR$/server/main.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="982" />
+    <option name="height" value="977" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -178,93 +545,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="dockerdaydayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dockerdaydayup" type="47feb1d3:ProjectViewModuleNode" />
-            </path>
-            <path>
-              <item name="dockerdaydayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dockerdaydayup" type="47feb1d3:ProjectViewModuleNode" />
               <item name="dockerdaydayup" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dockerdaydayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dockerdaydayup" type="47feb1d3:ProjectViewModuleNode" />
               <item name="dockerdaydayup" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dockerdaydayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dockerdaydayup" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="dockerdaydayup" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dockerdaydayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dockerdaydayup" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="dockerdaydayup" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="helm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dockerdaydayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dockerdaydayup" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="dockerdaydayup" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="helm" type="462c0819:PsiDirectoryNode" />
-              <item name="charts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dockerdaydayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dockerdaydayup" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="dockerdaydayup" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="helm" type="462c0819:PsiDirectoryNode" />
-              <item name="charts" type="462c0819:PsiDirectoryNode" />
-              <item name="edcdv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dockerdaydayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dockerdaydayup" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="dockerdaydayup" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="helm" type="462c0819:PsiDirectoryNode" />
-              <item name="charts" type="462c0819:PsiDirectoryNode" />
-              <item name="edcdv" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dockerdaydayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dockerdaydayup" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="dockerdaydayup" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="helm" type="462c0819:PsiDirectoryNode" />
-              <item name="charts" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dockerdaydayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dockerdaydayup" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="dockerdaydayup" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="helm" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dockerdaydayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dockerdaydayup" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="dockerdaydayup" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="videoapi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,7 +580,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -292,6 +589,7 @@
       <recent name="$PROJECT_DIR$/example/videoapi" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/proto" />
       <recent name="$PROJECT_DIR$/example/videoreport/proto" />
     </key>
   </component>
@@ -307,7 +605,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (2)">
+  <component name="RunManager" selected="Go Build.go build main.go (3)">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="dockerdaydayup" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -326,6 +624,15 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="dockerdaydayup" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/server/main.go" />
+      <package value="github.com/xumc/dockerdaydayup" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="dockerdaydayup" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -337,6 +644,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (3)" />
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
@@ -344,16 +652,16 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="982" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988764" visible="true" weight="0.16773163" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988764" visible="true" weight="0.1773163" />
       <window_info id="Structure" order="1" sideWeight="0.5011236" side_tool="true" weight="0.16773163" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978701" weight="0.32921347" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946752" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946752" weight="0.3299435" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49520767" visible="true" weight="0.16384181" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840257" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -361,7 +669,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946752" weight="0.32921347" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5021299" side_tool="true" weight="0.35730338" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50479233" side_tool="true" weight="0.26892656" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -371,183 +679,26 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/client/electron-quick-start" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/server/main.go</url>
+          <line>187</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/go/src/syscall/zerrors_darwin_amd64.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="1253" column="4" selection-start-line="1253" selection-start-column="4" selection-end-line="1253" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../wencan/reloader/internal/master/worker.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="121" column="20" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/videoAPI/Dockfile" />
-    <entry file="file://$PROJECT_DIR$/example/chart/Chart.yaml" />
-    <entry file="file://$PROJECT_DIR$/example/chart/templates/NOTES.txt" />
-    <entry file="file://$PROJECT_DIR$/example/chart/templates/service.yaml" />
-    <entry file="file://$PROJECT_DIR$/example/chart/templates/ingress.yaml" />
-    <entry file="file://$PROJECT_DIR$/example/chart/values.yaml" />
-    <entry file="file://$PROJECT_DIR$/example/chart/templates/_helpers.tpl" />
-    <entry file="file://$PROJECT_DIR$/example/chart/templates/deployment.yaml" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/electron-quick-start/LICENSE.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="171">
-            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/electron-quick-start/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/helm/requirements.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/electron-quick-start/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/electron-quick-start/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/electron-quick-start/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/electron-quick-start/renderer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../wencan/reloader/example/simple/simple.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/helm/charts/mysql/templates/initializationFiles-configmap.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/fmt/print.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="206" column="5" selection-start-line="206" selection-start-column="5" selection-end-line="206" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/encoding/json/decode.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1523">
-          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/helm/Chart.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/database/sql/sql.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="2662" column="12" selection-start-line="2662" selection-start-column="12" selection-end-line="2662" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../google.golang.org/grpc/server.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="380" column="5" selection-start-line="380" selection-start-column="5" selection-end-line="380" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/videoreport/video_report.pb.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/videoreport/proto/video_report.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/videoapi/video_report.pb.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../google.golang.org/grpc/clientconn.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="447" column="5" selection-start-line="447" selection-start-column="5" selection-end-line="447" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/videoapi/proto/video_report.pb.go">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/helm/charts/videoreport/Chart.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/helm/charts/videoreport/values.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/videoreport/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
@@ -570,46 +721,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/helm/charts/videoreport/templates/deployment.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/helm/charts/videoreport/templates/ingress.yaml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/videoreport/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <element signature="e#14#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/helm/templates/service.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/net/http/server.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="2477" column="5" selection-start-line="2477" selection-start-column="5" selection-end-line="2477" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/data_watch_dog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/videoapi/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
@@ -618,66 +731,297 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/package.json">
+    <entry file="file://$PROJECT_DIR$/client/package.json" />
+    <entry file="file://$PROJECT_DIR$/client/data_watch_dog.js" />
+    <entry file="file://$PROJECT_DIR$/client/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/example/helm/charts/videoreport/Chart.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="89" column="17" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/videoapi/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="121" column="86" selection-start-line="121" selection-start-column="86" selection-end-line="121" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/helm/values.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/helm/templates/deployment.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/helm/charts/mysql/templates/deployment.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        <state relative-caret-position="456">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/helm/charts/mysql/values.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="130" column="85" selection-start-line="130" selection-start-column="85" selection-end-line="130" selection-end-column="85" />
+        <state relative-caret-position="240">
+          <caret line="196" selection-start-line="196" selection-end-line="196" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/helm/templates/deployment.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/helm/charts/videoreport/templates/deployment.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/helm/charts/videoreport/templates/service.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/helm/charts/videoreport/values.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/gulpfile.babel.js" />
+    <entry file="file://$PROJECT_DIR$/server/package.json" />
+    <entry file="file://$PROJECT_DIR$/example/helm/istio-defination.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/helm/Chart.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/helm/charts/edcdv/templates/deployment.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/helm/charts/edcdv/values.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/helm/charts/edcdv/templates/deployment.yaml">
+    <entry file="file://$PROJECT_DIR$/example/videoreport/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        <state relative-caret-position="395">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/bytes/buffer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7695">
+          <caret line="409" column="8" selection-start-line="409" selection-start-column="8" selection-end-line="409" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/io/io.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1653">
+          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/syscall/syscall_bsd.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/os/exec/exec.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/tele_manager.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/os/exec_posix.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/sort/search.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/os/exec.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="129" column="18" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ericchiang/k8s/resource.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ericchiang/k8s/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="437" column="92" lean-forward="true" selection-start-line="437" selection-start-column="92" selection-end-line="437" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/videoapi/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-346">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../golang/protobuf/proto/text.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="842" column="63" selection-start-line="842" selection-start-column="63" selection-end-line="842" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ericchiang/k8s/apis/core/v1/generated.pb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="2070" column="26" selection-start-line="2070" selection-start-column="26" selection-end-line="2070" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/proto/proto.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/proto/proto.pb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#88#400#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../google.golang.org/grpc/dialoptions.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="403" column="37" selection-start-line="403" selection-start-column="37" selection-end-line="403" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../golang/protobuf/jsonpb/jsonpb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/helm/templates/service.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/helm/values.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/net/http/fs.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="59" selection-start-column="59" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../grpc-ecosystem/grpc-gateway/runtime/mux.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="146" column="5" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/net/http/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../rs/cors/cors.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="201" column="15" selection-start-line="201" selection-start-column="15" selection-end-line="201" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/net/url/url.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="367" column="4" selection-start-line="367" selection-start-column="4" selection-end-line="367" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/log/log.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="311" column="5" selection-start-line="311" selection-start-column="5" selection-end-line="311" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../etcd-io/etcd/pkg/fileutil/fileutil.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6636">
+          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="e#14#392#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

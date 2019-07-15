@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fca3b6d3-6c71-4f1d-83c0-dfe054639763" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/dockerdaydayup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/dockerdaydayup.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/data_watch_dog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/docker-test.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/lib/binlog_event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/lib/capture.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/lib/code_map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/lib/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/lib/datetime_decode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/lib/json_decode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/lib/packet/binlog_header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/lib/packet/combinlog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/lib/packet/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/lib/reader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/lib/rows_event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/lib/sequence/binlog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/LICENCE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/bignumber.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/bignumber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/bignumber.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/bignumber.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/bignumber.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/doc/API.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/bignumber.js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/Changes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/License" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/Connection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/ConnectionConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/Pool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/PoolCluster.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/PoolConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/PoolConnection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/PoolNamespace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/PoolSelector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/Auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/BufferList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/PacketHeader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/PacketWriter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/Parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/Protocol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/ResultSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/SqlString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/Timer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/constants/charsets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/constants/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/constants/errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/constants/field_flags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/constants/server_status.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/constants/ssl_profiles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/constants/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/AuthSwitchRequestPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/AuthSwitchResponsePacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/ClientAuthenticationPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/ComChangeUserPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/ComPingPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/ComQueryPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/ComQuitPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/ComStatisticsPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/EmptyPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/EofPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/ErrorPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/Field.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/FieldPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/LocalDataFilePacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/OkPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/OldPasswordPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/ResultSetHeaderPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/RowDataPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/SSLRequestPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/StatisticsPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/UseOldPasswordPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/packets/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/sequences/ChangeUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/sequences/Handshake.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/sequences/Ping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/sequences/Query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/sequences/Quit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/sequences/Sequence.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/sequences/Statistics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/lib/protocol/sequences/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/mysql/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/process-nextick-args/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/process-nextick-args/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/process-nextick-args/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/process-nextick-args/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/GOVERNANCE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/duplex-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/duplex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/lib/_stream_duplex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/lib/_stream_passthrough.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/lib/_stream_readable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/lib/_stream_transform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/lib/_stream_writable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/lib/internal/streams/BufferList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/lib/internal/streams/destroy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/lib/internal/streams/stream-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/lib/internal/streams/stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/passthrough.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/readable-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/readable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/transform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/writable-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/readable-stream/writable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/safe-buffer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/safe-buffer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/safe-buffer/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/safe-buffer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/safe-buffer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/sqlstring/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/sqlstring/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/sqlstring/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/sqlstring/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/sqlstring/lib/SqlString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/sqlstring/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/string_decoder/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/string_decoder/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/string_decoder/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/string_decoder/lib/string_decoder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/node_modules/string_decoder/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/@rodrigogs/zongji/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/bignumber.js/LICENCE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/bignumber.js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/bignumber.js/bignumber.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/bignumber.js/bignumber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/bignumber.js/bignumber.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/bignumber.js/bignumber.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/bignumber.js/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/bignumber.js/doc/API.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/bignumber.js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/core-util-is/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/core-util-is/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/core-util-is/float.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/core-util-is/lib/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/core-util-is/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/core-util-is/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/Changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/encodings/dbcs-codec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/encodings/dbcs-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/encodings/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/encodings/internal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/encodings/sbcs-codec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/encodings/sbcs-data-generated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/encodings/sbcs-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/encodings/tables/big5-added.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/encodings/tables/cp936.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/encodings/tables/cp949.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/encodings/tables/cp950.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/encodings/tables/eucjp.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/encodings/tables/gbk-added.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/encodings/tables/shiftjis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/encodings/utf16.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/encodings/utf7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/lib/bom-handling.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/lib/extend-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/lib/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/lib/streams.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/iconv-lite/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/inherits/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/inherits/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/inherits/inherits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/inherits/inherits_browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/isarray/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/isarray/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/isarray/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/isarray/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/isarray/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/isarray/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/isarray/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/isarray/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/Changes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/License" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/Connection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/ConnectionConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/Pool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/PoolCluster.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/PoolConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/PoolConnection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/PoolNamespace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/PoolSelector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/Auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/BufferList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/PacketHeader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/PacketWriter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/Parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/Protocol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/ResultSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/SqlString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/constants/charsets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/constants/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/constants/errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/constants/field_flags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/constants/server_status.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/constants/ssl_profiles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/constants/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/AuthSwitchRequestPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/AuthSwitchResponsePacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/ClientAuthenticationPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/ComChangeUserPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/ComPingPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/ComQueryPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/ComQuitPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/ComStatisticsPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/EmptyPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/EofPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/ErrorPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/Field.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/FieldPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/LocalDataFilePacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/OkPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/OldPasswordPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/ResultSetHeaderPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/RowDataPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/SSLRequestPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/StatisticsPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/UseOldPasswordPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/packets/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/sequences/ChangeUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/sequences/Handshake.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/sequences/Ping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/sequences/Query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/sequences/Quit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/sequences/Sequence.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/sequences/Statistics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/lib/protocol/sequences/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/mysql/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/process-nextick-args/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/process-nextick-args/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/process-nextick-args/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/process-nextick-args/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/process-nextick-args/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/process-nextick-args/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/GOVERNANCE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/duplex-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/duplex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/lib/_stream_duplex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/lib/_stream_passthrough.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/lib/_stream_readable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/lib/_stream_transform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/lib/_stream_writable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/lib/internal/streams/BufferList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/lib/internal/streams/destroy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/lib/internal/streams/stream-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/lib/internal/streams/stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/passthrough.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/readable-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/readable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/transform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/writable-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/readable-stream/writable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/safe-buffer/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/safe-buffer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/safe-buffer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/safe-buffer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/safe-buffer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/safe-buffer/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/safer-buffer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/safer-buffer/Porting-Buffer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/safer-buffer/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/safer-buffer/dangerous.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/safer-buffer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/safer-buffer/safer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/safer-buffer/tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/sqlstring/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/sqlstring/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/sqlstring/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/sqlstring/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/sqlstring/lib/SqlString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/sqlstring/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/string_decoder/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/string_decoder/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/string_decoder/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/string_decoder/lib/string_decoder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/string_decoder/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/util-deprecate/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/util-deprecate/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/util-deprecate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/util-deprecate/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/util-deprecate/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/util-deprecate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/zongji/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/zongji/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/zongji/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/zongji/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/zongji/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/zongji/docker-test.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/zongji/example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/zongji/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/zongji/lib/binlog_event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/zongji/lib/capture.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/zongji/lib/code_map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/zongji/lib/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/zongji/lib/datetime_decode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/zongji/lib/json_decode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/zongji/lib/packet/binlog_header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/zongji/lib/packet/combinlog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/zongji/lib/packet/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/zongji/lib/reader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/zongji/lib/rows_event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/zongji/lib/sequence/binlog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/node_modules/zongji/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../example/helm/charts/videoreport/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../example/helm/charts/videoreport/templates/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../example/helm/charts/videoreport/templates/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../example/helm/charts/videoreport/templates/service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../example/helm/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../example/helm/templates/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../example/helm/templates/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../example/helm/templates/service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../example/videoAPI/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../example/videoAPI/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../example/videoAPI/videoapi" beforeDir="false" afterPath="$PROJECT_DIR$/../../example/videoAPI/videoapi" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="980" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
